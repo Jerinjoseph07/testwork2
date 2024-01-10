@@ -1,0 +1,39 @@
+.background2 {
+    /* Add the linear gradient with black color and low opacity */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wallpapercave.com/wp/wp5351194.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homehead{
+    font-family: 'Teko', sans-serif;
+    font-size: 600%;
+    color: aliceblue;
+}
+
+.getstarted {
+    text-decoration: none;
+    background-color: #3498db;
+    /* You can customize the button color */
+    color: #fff;
+    /* You can customize the text color */
+    padding: 15px 30px;
+    /* Adjust padding as needed */
+    font-size: 150%;
+    /* Adjust font size as needed */
+    border-radius: 5px;
+    /* Add border-radius for a rounded button appearance */
+    transition: background-color 0.3s;
+    margin-top: 400px;
+    margin-right: 0px,auto;
+    /* Adjust margin to separate the button from the heading */
+}
+
+.getstarted:hover {
+    background-color: #2980b9;
+    /* You can customize the button color on hover */
+}

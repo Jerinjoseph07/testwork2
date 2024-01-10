@@ -1,0 +1,46 @@
+/* Navigation.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    /* You can customize the background color */
+    color: #fff;
+    /* You can customize the text color */
+}
+
+.logo {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 10px;
+}
+
+/* Style the login button */
+.nav-list a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    /* You can customize the border color */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #fff;
+    /* You can customize the hover background color */
+    color: #333;
+    /* You can customize the hover text color */
+}
